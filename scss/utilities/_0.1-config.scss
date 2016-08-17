@@ -1,0 +1,100 @@
+// 0. CONFIG [ 0.1. VARIABLES ]  ######################################################################################
+
+// A. FONTS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// A.1. FONT SETUP ----------------------------------------------------------------------------------------------------
+
+@font-face {
+    font-family: 'gotham';
+    src: url('../fonts/-Gotham-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima-light';
+    src: url('../fonts/-ProximaNova-Light.ttf'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima';
+    src: url('../fonts/-ProximaNova-Semibold.ttf'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+$gotham: 	'gotham', Helvetica, 'Arial Black', sans-serif;
+$default: 	'proxima-light', Helvetica, Arial, sans-serif;
+$regular: 	'proxima', Helvetica, Arial, sans-serif;
+
+$base-font:			$default; // Change your default font type.
+$base-size: 		16px; 		// Choose your base font size. I like 16px and Relative Readability.
+$baseline: 			20px; 		// Choose your Line Height.
+
+// A.1. END -----------------------------------------------------------------------------------------------------------
+
+// A.2. FONT SIZES ----------------------------------------------------------------------------------------------------
+
+$xxx-large:         4em; 		// 32px
+$xx-large:          2em; 		// 32px
+$x-large:           1.7em; 		// 32px
+$large:             1.5em; 		// 24px
+$medium:            1.125em; 	// 18px
+$normal:            1em; 		// 16px
+$small:             0.75em; 	// 12px
+$x-small:           0.625em; 	// 10px
+
+// A.2. END -----------------------------------------------------------------------------------------------------------
+
+// A.3. FONT WEIGHTS --------------------------------------------------------------------------------------------------
+
+$font-weight--thin       : 100;
+$font-weight--light      : 300;
+$font-weight--medium     : 400;
+$font-weight--bold       : 700;
+$font-weight--ultra-bold : 900;
+
+// A.2. END -----------------------------------------------------------------------------------------------------------
+
+// A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// B. MARGINS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+$baseline-largest:      $baseline*5;
+$baseline-larger:       $baseline*4;
+$baseline-large:        $baseline*2;
+$baseline-small:        $baseline/2;
+$baseline-smaller:      $baseline/4;
+
+// B. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// C. COLOURS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+$royal:         #1e334e;
+$teal:          #5Eb0A5;
+$aqua:          #86B2C1;
+$orange:        #EBAB82;
+$yellow:        #EED082;
+
+$black:         #000000;
+$grey90:        #333333;
+$grey80:        #555555;
+$grey70:        #777777;
+$grey60:        #999999;
+$grey50:        #AAAAAA;
+$grey40:        #BBBBBB;
+$grey30:        #CCCCCC;
+$grey20:        #DDDDDD;
+$grey10:        #EEEEEE;
+$white:         #FFFFFF;
+
+// C. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+
+// END OF FILE ########################################################################################################
