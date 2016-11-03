@@ -34,12 +34,14 @@
     "lodash": "^3.10.1",
     "lru-cache": "^2.7.0",
     "node-modules": "^0.1.4",
+    "postcss": "^5.2.5",
     "require-dir": "~0.1.0",
     "rewrite": "0.0.1",
     "run-sequence": "~0.3.6",
     "sigmund": "^1.0.1",
     "tiny-lr": "~0.1.0",
-    "urls": "0.0.4"
+    "urls": "0.0.4",
+    "vinyl-sourcemaps-apply": "^0.2.1"
   },
   "dependencies": {
     "gulp-install": "^0.6.0"

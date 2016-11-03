@@ -31,3 +31,7 @@ _system/_site/.sass-cache
 *.DS_Store
 */.DS_Store
 */**/.DS_Store
+
+# 3. Project Specific Files
+
+www
