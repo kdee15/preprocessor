@@ -1,4 +1,4 @@
-# KONSTRUCT BOILERPLATE IGNORE FILE
+# LAB PREPROCESSOR IGNORE FILE
 
 # 1. GULP IGNORE FOLDER
 
@@ -24,5 +24,3 @@ _system/_site/.sass-cache
 _system/_site/node_modules
 _system/_site/_bower.cache
 _system/_site/.sass-cache
-
-# 2. CUSTOM IGNORE FODDER

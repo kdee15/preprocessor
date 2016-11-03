@@ -1,0 +1,46 @@
+{
+
+    "root": "www",
+    
+    "assets" : {
+        
+        "js" : {
+            
+            "bower" : [
+                
+                "modernizr/modernizr.js",
+                "jquery/dist/jquery.js",
+                "owl-carousel/owl-carousel/owl.carousel.min.js"
+
+            ],
+            
+            "order" : [
+                
+                "modernizr.js",
+                "jquery.js",
+                "owl.carousel.min.js"
+
+            ],
+            
+            "maps" : [
+
+                "jquery/dist/jquery.min.map"
+
+            ]
+            
+        },
+        
+        "css" : {
+            
+            "libraries" : [
+
+                "normalize.css/normalize.css",
+                "owl-carousel/owl-carousel/owl.carousel.css",
+                "owl-carousel/owl-carousel/owl.transitions.css",
+                "owl-carousel/owl-carousel/AjaxLoader.gif",
+                "owl-carousel/owl-carousel/grabbing.png"
+
+            ]
+        }
+    }
+}
