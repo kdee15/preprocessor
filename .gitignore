@@ -24,3 +24,8 @@ _system/_site/.sass-cache
 _system/_site/node_modules
 _system/_site/_bower.cache
 _system/_site/.sass-cache
+
+ # 2. OS FILES
+ 
+.DS_Store
+*/**/.DS_Store
