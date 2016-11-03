@@ -28,4 +28,6 @@ _system/_site/.sass-cache
  # 2. OS FILES
  
 .DS_Store
+*.DS_Store
+*/.DS_Store
 */**/.DS_Store
